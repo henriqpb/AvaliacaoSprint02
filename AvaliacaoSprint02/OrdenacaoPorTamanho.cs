@@ -15,7 +15,8 @@ namespace AvaliacaoSprint02
 
             //entradas
 
-            
+
+
 
             int qntCasos = int.Parse(Console.ReadLine());
 
@@ -23,6 +24,8 @@ namespace AvaliacaoSprint02
             string frase;
 
             string[] elementosFrase;
+
+            StringBuilder magia = new StringBuilder();
 
 
             for (int i = 0; i < qntCasos; i++)
@@ -36,9 +39,12 @@ namespace AvaliacaoSprint02
                 foreach (string palavra in elementosFrase.OrderByDescending(s => s.Length))
                 {
 
-                    Console.Write($"{palavra} ");
+                    magia.Append(palavra).Append(' ');
+
+                    //Console.Write($"{palavra} ");
                 }
 
+                Console.Write(magia);
 
             }
         }
