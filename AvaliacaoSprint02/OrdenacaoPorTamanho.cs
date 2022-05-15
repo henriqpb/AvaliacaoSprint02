@@ -15,7 +15,7 @@ namespace AvaliacaoSprint02
 
             //entradas
 
-            Console.WriteLine("insira o numero de frases: ");
+            
 
             int qntCasos = int.Parse(Console.ReadLine());
 
