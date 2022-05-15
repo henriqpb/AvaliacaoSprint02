@@ -30,7 +30,7 @@ namespace AvaliacaoSprint02
 
             int nota100 = (entradaValorInteiro / 100);
             int restoDe100 = (entradaValorInteiro % 100);
-            int nota50 = (restoDe100 / 50);
+            int nota50 = (restoDe100 / 50); 
             int restoDe50 = (restoDe100 % 50);
             int nota20 = (restoDe50 / 20);
             int restoDe20 = (restoDe50 % 20);
